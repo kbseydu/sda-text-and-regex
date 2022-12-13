@@ -16,6 +16,8 @@ pqqqqqqq
 public class Regex000 {
     private static final Pattern pattern = Pattern.compile("pq*");
 
+    RegexTester tester = new RegexTester("pq*");
+
     public static void main(String[] args) {
         validate("p");
         validate("pq");
