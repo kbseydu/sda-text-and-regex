@@ -9,6 +9,7 @@ public class RegexExample3 {
         Matcher matcher = pattern.matcher("Francis Junior --Underwood-- został prezydentem USA");
         //System.out.println(matcher.matches()); - musi być inaczej by się wywalil na tych poniższych linijkach z grupami
         System.out.println(matcher.matches());
+        System.out.println(matcher.group(0));
         System.out.println(matcher.group(1));
         System.out.println(matcher.group(2));
         System.out.println(matcher.group(3));
